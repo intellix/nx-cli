@@ -3,7 +3,122 @@
   "project": {
     "name": "nx-cli"
   },
-  "apps": [],
+  "apps": [
+    {
+      "name": "blue",
+      "root": "apps/blue/src",
+      "outDir": "dist/apps/blue",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "../../../test.js",
+      "tsconfig": "../../../tsconfig.app.json",
+      "testTsconfig": "../../../tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "styles.scss"
+      ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "scss"
+        ]
+      },
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    },
+    {
+      "name": "green",
+      "root": "apps/green/src",
+      "outDir": "dist/apps/green",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "../../../test.js",
+      "tsconfig": "../../../tsconfig.app.json",
+      "testTsconfig": "../../../tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "styles.scss"
+      ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "scss"
+        ]
+      },
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    },
+    {
+      "name": "red",
+      "root": "apps/red/src",
+      "outDir": "dist/apps/red",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "../../../test.js",
+      "tsconfig": "../../../tsconfig.app.json",
+      "testTsconfig": "../../../tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "styles.scss"
+      ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "scss"
+        ]
+      },
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    },
+    {
+      "name": "core",
+      "root": "libs/core/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "lazy",
+      "root": "libs/lazy/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "lazier",
+      "root": "libs/lazier/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "shared",
+      "root": "libs/shared/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    }
+  ],
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
@@ -29,9 +144,12 @@
     "schematics": {
       "collection": "@nrwl/schematics",
       "postGenerate": "npm run format",
-      "newProject": ["app", "lib"]
+      "newProject": [
+        "app",
+        "lib"
+      ]
     },
-    "styleExt": "css",
+    "styleExt": "scss",
     "component": {}
   }
 }
