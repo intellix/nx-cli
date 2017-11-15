@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "module": "es2015",
+    "baseUrl": ".",
+    "paths": {
+      "@nx-cli/*": [
+        "libs/*"
+      ]
+    }
+  },
+  "include": [
+    "apps/red/**/*.ts",
+    "libs/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.e2e-spec.ts",
+    "node_modules",
+    "tmp",
+    "libs/lazier/**/*"
+  ]
+}

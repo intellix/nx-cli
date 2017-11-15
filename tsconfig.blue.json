@@ -10,10 +10,15 @@
       ]
     }
   },
+  "include": [
+    "apps/blue/**/*.ts",
+    "libs/**/*.ts"
+  ],
   "exclude": [
     "**/*.spec.ts",
     "**/*.e2e-spec.ts",
     "node_modules",
-    "tmp"
+    "tmp",
+    "libs/lazier/**/*"
   ]
 }

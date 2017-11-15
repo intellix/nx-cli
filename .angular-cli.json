@@ -16,7 +16,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "../../../test.js",
-      "tsconfig": "../../../tsconfig.app.json",
+      "tsconfig": "../../../tsconfig.blue.json",
       "testTsconfig": "../../../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
@@ -46,7 +46,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "../../../test.js",
-      "tsconfig": "../../../tsconfig.app.json",
+      "tsconfig": "../../../tsconfig.green.json",
       "testTsconfig": "../../../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
@@ -76,7 +76,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "../../../test.js",
-      "tsconfig": "../../../tsconfig.app.json",
+      "tsconfig": "../../../tsconfig.red.json",
       "testTsconfig": "../../../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
@@ -126,7 +126,13 @@
   },
   "lint": [
     {
-      "project": "./tsconfig.app.json"
+      "project": "./tsconfig.red.json"
+    },
+    {
+      "project": "./tsconfig.green.json"
+    },
+    {
+      "project": "./tsconfig.blue.json"
     },
     {
       "project": "./tsconfig.spec.json"

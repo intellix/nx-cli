@@ -15,23 +15,11 @@
           <context context-type="sourcefile">libs/shared/src/clock/clock.component.ts</context>
           <context context-type="linenumber">2</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/green/src/app/clock/clock.component.ts</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="179334a75ec12175b1c4848546dcef1c39d46b20" datatype="html">
         <source>Lazy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">apps/blue/src/app/app.component.ts</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/green/src/app/app.component.ts</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/red/src/app/app.component.ts</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
@@ -40,42 +28,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">apps/blue/src/app/app.component.ts</context>
           <context context-type="linenumber">5</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/green/src/app/app.component.ts</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/red/src/app/app.component.ts</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0ac75e277aa5d7ec5354186e7bf9196a5dd7f57a" datatype="html">
-        <source>Lazier</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/green/src/app/app.component.ts</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="fefdb2b64a168105bd272210a1b222e5eb21dd04" datatype="html">
-        <source>Green clock</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/green/src/app/clock/clock.component.ts</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="398d96294fe8e32416e1605f036a0fb11701d0e4" datatype="html">
-        <source>Green Footer!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/green/src/app/footer/footer.component.ts</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="666fc28b07eb5e0255b2f2c8c43927f1163c9aec" datatype="html">
-        <source>Lazier works</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">libs/lazier/src/lazier.component.ts</context>
-          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0dac6e5d6d0cd2ad45ee26c74fa9a479a08c350f" datatype="html">
