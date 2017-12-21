@@ -4,12 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NxModule } from '@nrwl/nx';
 
 import { CoreModule } from '@nx-cli/core';
-import { SharedModule } from '@nx-cli/shared';
+import { LayoutModule } from '@nx-cli/layout';
 
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-  imports: [BrowserModule, AppRoutingModule, NxModule.forRoot(), CoreModule.forRoot(), SharedModule],
+  imports: [BrowserModule, AppRoutingModule, NxModule.forRoot(), CoreModule.forRoot(), LayoutModule],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })

@@ -1,10 +1,14 @@
 <app-header></app-header>
+<section>
+  <app-sidebar></app-sidebar>
+  <section>
+    <a [routerLink]="['/lazy']" i18n>Lazy</a>
+    <a [routerLink]="['/lazier']" i18n>Lazier</a>
 
-<a [routerLink]="['/lazy']" i18n>Lazy</a>
-<a [routerLink]="['/lazier']" i18n>Lazier</a>
+    <h1 i18n>Welcome to {{ title }}!</h1>
 
-<h1 i18n>Welcome to {{ title }}!</h1>
-
-<router-outlet></router-outlet>
+    <router-outlet></router-outlet>
+  </section>
+</section>
 
 <app-footer></app-footer>
